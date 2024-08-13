@@ -1,0 +1,18 @@
+import pandas as pd
+# cmcinit = pd.read_hdf('dynamics/rv2.0_modified/king.window.snapshots.h5', key='0(t=0Gyr)')
+# cmc49Myr = pd.read_hdf('dynamics/rv2.0_modified/king.snapshots.h5', key='4(t=0.0098752446)')
+# cmc56Myr = pd.read_hdf('dynamics/rv2.0_modified/king.snapshots.h5', key='5(t=0.011711015)')
+# cmc211Myr = pd.read_hdf('dynamics/rv2.0_modified/king.snapshots.h5', key='37(t=0.04393801)')
+# cmc215Myr = pd.read_hdf('dynamics/rv2.0_modified/king.snapshots.h5', key='38(t=0.044952551)')
+# cmc219Myr = pd.read_hdf('dynamics/rv2.0_modified/king.snapshots.h5', key='39(t=0.045658191)')
+cmchi = pd.read_hdf('dynamics/rv2.0_modified/king.snapshots.h5', key='59(t=0.06873593)')
+# tried 62 for 348 Myr, 58 for 325 Myr, 60 for 334 Myr
+# cmcpres = pd.read_hdf('dynamics/rv2.0_modified/king.snapshots.h5', key='449(t=1.0970282)')
+# print(cmcinit.loc[cmcinit['id'] == 758435].filter(['startype', 'bin_startype0', 'bin_startype1', 'm0_MSUN', 'm1_MSUN', 'a_AU', 'e']))
+# print(cmc49Myr.loc[cmc49Myr['id'] == 758435].filter(['startype', 'bin_startype0', 'bin_startype1', 'm0_MSUN', 'm1_MSUN', 'a_AU', 'e']))
+# print(cmc56Myr.loc[cmc56Myr['id'] == 758435].filter(['startype', 'bin_startype0', 'bin_startype1', 'm0_MSUN', 'm1_MSUN', 'a_AU', 'e']))
+# print(cmc211Myr.loc[cmc211Myr['id'] == 758435].filter(['startype', 'bin_startype0', 'bin_startype1', 'm0_MSUN', 'm1_MSUN', 'a_AU', 'e']))
+# print(cmc215Myr.loc[cmc215Myr['id'] == 758435].filter(['startype', 'bin_startype0', 'bin_startype1', 'm0_MSUN', 'm1_MSUN', 'a_AU', 'e']))
+# print(cmc219Myr.loc[cmc219Myr['id'] == 758435].filter(['startype', 'bin_startype0', 'bin_startype1', 'm0_MSUN', 'm1_MSUN', 'a_AU', 'e']))
+print(cmchi.loc[cmchi['id'] == 758435].filter(['startype', 'bin_startype0', 'bin_startype1', 'm0_MSUN', 'm1_MSUN', 'a_AU', 'e']))
+# print(cmcpres.loc[cmcpres['id'] == 758435].filter(['startype', 'bin_startype0', 'bin_startype1', 'm0_MSUN', 'm1_MSUN', 'a_AU', 'e']))
